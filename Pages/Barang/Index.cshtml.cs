@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using pos_koperasi.Data;
 using pos_koperasi.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace pos_koperasi.Pages_Barang
 {
@@ -19,11 +20,26 @@ namespace pos_koperasi.Pages_Barang
             _context = context;
         }
 
-        public IList<Barang> Barang { get;set; } = default!;
+        public IList<Barang> Barang { get; set; } = default!;
+
+        [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+        public SelectList? NamaBarang { get; set; }
+
+        // [BindProperty(SupportsGet = true)]
+        // public SelectList? BarangNama { get; set; }
 
         public async Task OnGetAsync()
         {
-            Barang = await _context.Barang.ToListAsync();
+            var barang = from m in _context.Barang
+                         select m;
+
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                barang = barang.Where(s => s.NamaBarang.Contains(SearchString));
+            }
+
+            Barang = await barang.ToListAsync();
         }
     }
 }

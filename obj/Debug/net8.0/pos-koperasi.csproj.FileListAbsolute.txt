@@ -282,3 +282,4 @@ C:\work\POS-koperasi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cr
 C:\work\POS-koperasi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\work\POS-koperasi\obj\Debug\net8.0\pos-koperasi.csproj.AssemblyReference.cache
 C:\work\POS-koperasi\obj\Debug\net8.0\pos-kope.A4BB414F.Up2Date
+C:\work\POS-koperasi\obj\Debug\net8.0\pos-koperasi.sourcelink.json

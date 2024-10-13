@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vTDk5YmEe9wNzfRUgSfWOZN4gk3CO6A7FpQkJo5s85Q=",
+  "Hash": "GyeggfLjPH6IiQhRykUNCMJTm3BxCV9e3ESTBwdILlc=",
   "Source": "pos-koperasi",
   "BasePath": "_content/pos-koperasi",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\pos-koperasi.styles.css",
+      "Identity": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\pos-koperasi.styles.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/pos-koperasi",
       "RelativePath": "pos-koperasi.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\pos-koperasi.styles.css"
+      "OriginalItemSpec": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\pos-koperasi.styles.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\pos-koperasi.bundle.scp.css",
+      "Identity": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\pos-koperasi.bundle.scp.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/pos-koperasi",
       "RelativePath": "pos-koperasi.bundle.scp.css",
       "AssetKind": "All",
@@ -52,10 +52,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\work\\POS-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\pos-koperasi.bundle.scp.css"
+      "OriginalItemSpec": "C:\\work\\pos-koperasi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\pos-koperasi.bundle.scp.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\css\\site.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\css\\site.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -74,7 +74,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\favicon.ico",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\favicon.ico",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -93,7 +93,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\js\\site.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\js\\site.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -112,7 +112,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -131,7 +131,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -150,7 +150,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -169,7 +169,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -188,7 +188,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -207,7 +207,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -226,7 +226,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -245,7 +245,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -264,7 +264,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -283,7 +283,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -302,7 +302,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -321,7 +321,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -340,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -359,7 +359,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -378,7 +378,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -397,7 +397,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -416,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -435,7 +435,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -454,7 +454,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -473,7 +473,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -492,7 +492,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -511,7 +511,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -530,7 +530,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -549,7 +549,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -568,7 +568,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -587,7 +587,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -606,7 +606,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -625,7 +625,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -644,7 +644,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -663,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -682,7 +682,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -701,7 +701,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -720,7 +720,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -739,7 +739,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -758,7 +758,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -777,7 +777,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -796,7 +796,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -815,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -834,7 +834,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -853,7 +853,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -872,7 +872,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -891,7 +891,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -910,7 +910,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -929,7 +929,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -948,7 +948,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -967,7 +967,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -986,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1005,7 +1005,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1024,7 +1024,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1043,7 +1043,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1062,7 +1062,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1081,7 +1081,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1100,7 +1100,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1119,7 +1119,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1138,7 +1138,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1157,7 +1157,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",
@@ -1176,7 +1176,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\work\\POS-koperasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "pos-koperasi",
       "SourceType": "Discovered",
       "ContentRoot": "c:\\work\\POS-koperasi\\wwwroot\\",

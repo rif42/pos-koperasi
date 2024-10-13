@@ -1,4 +1,4 @@
-@page
+@page "{searchString?}"
 @model pos_koperasi.Pages_Barang.IndexModel
 
 @{
@@ -10,6 +10,14 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form method="get">
+    <p>
+        <label>Nama Barang: <input type="text" asp-for="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>

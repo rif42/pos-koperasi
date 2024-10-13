@@ -30,7 +30,7 @@ namespace pos_koperasi.Pages_Barang
                 return NotFound();
             }
 
-            var barang =  await _context.Barang.FirstOrDefaultAsync(m => m.Id == id);
+            var barang = await _context.Barang.FirstOrDefaultAsync(m => m.Id == id);
             if (barang == null)
             {
                 return NotFound();
