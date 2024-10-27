@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\work\\POS-koperasi\\pos-koperasi.csproj": {}
+    "C:\\work\\pos-koperasi\\pos-koperasi.csproj": {}
   },
   "projects": {
-    "c:\\work\\POS-koperasi\\pos-koperasi.csproj": {
+    "C:\\work\\pos-koperasi\\pos-koperasi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\work\\POS-koperasi\\pos-koperasi.csproj",
+        "projectUniqueName": "C:\\work\\pos-koperasi\\pos-koperasi.csproj",
         "projectName": "pos-koperasi",
-        "projectPath": "c:\\work\\POS-koperasi\\pos-koperasi.csproj",
+        "projectPath": "C:\\work\\pos-koperasi\\pos-koperasi.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "c:\\work\\POS-koperasi\\obj\\",
+        "outputPath": "C:\\work\\pos-koperasi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"

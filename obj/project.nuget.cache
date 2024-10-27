@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0AzYUwTYa60=",
+  "dgSpecHash": "UIMXphaVWvk=",
   "success": true,
-  "projectFilePath": "c:\\work\\POS-koperasi\\pos-koperasi.csproj",
+  "projectFilePath": "C:\\work\\pos-koperasi\\pos-koperasi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

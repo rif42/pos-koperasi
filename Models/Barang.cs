@@ -17,4 +17,5 @@ public class Barang
     [Column(TypeName = "decimal(18, 3)")]
     public decimal Harga { get; set; }
     public decimal Stock { get; set; }
+    public string? Deskripsi { get; set; } = string.Empty;
 }

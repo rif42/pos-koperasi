@@ -36,8 +36,14 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Barang.Stock)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Barang.Deskripsi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Barang.Deskripsi)
+        </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Barang.Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
