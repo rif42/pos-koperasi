@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using pos_koperasi.Data;
 using pos_koperasi.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace pos_koperasi.Pages_Barang
 {
+    [Authorize(Policy = "CanManageBarang")]
     public class DeleteModel : PageModel
     {
         private readonly pos_koperasi.Data.RazorPagesBarangContext _context;

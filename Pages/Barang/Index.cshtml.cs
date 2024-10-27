@@ -39,7 +39,7 @@ namespace pos_koperasi.Pages_Barang
                 barang = barang.Where(s => s.NamaBarang.Contains(SearchString));
             }
 
-            Barang = await barang.ToListAsync();
+            Barang = await _context.Barang?.ToListAsync() ?? new List<Barang>();
         }
     }
 }

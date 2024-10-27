@@ -8,9 +8,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using pos_koperasi.Data;
 using pos_koperasi.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace pos_koperasi.Pages_Barang
 {
+    [Authorize(Policy = "CanManageBarang")]
     public class EditModel : PageModel
     {
         private readonly pos_koperasi.Data.RazorPagesBarangContext _context;
