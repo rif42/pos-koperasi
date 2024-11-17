@@ -18,4 +18,5 @@ public class Barang
     public decimal Harga { get; set; }
     public decimal Stock { get; set; }
     public string? Deskripsi { get; set; } = string.Empty;
+    public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
 }

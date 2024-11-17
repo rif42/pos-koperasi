@@ -41,5 +41,59 @@ namespace pos_koperasi.Pages_Barang
 
             Barang = await _context.Barang?.ToListAsync() ?? new List<Barang>();
         }
+
+        public async Task<IActionResult> OnPostAddToCartAsync(int id)
+        {
+            // Get the barang first to check stock
+            var barang = await _context.Barang.FindAsync(id);
+            if (barang == null)
+            {
+                return NotFound();
+            }
+
+            // Check stock
+            if (barang.Stock <= 0)
+            {
+                TempData["Error"] = "Item is out of stock";
+                return RedirectToPage();
+            }
+
+            // Get or create cart
+            var cart = await _context.Carts.FirstOrDefaultAsync();
+            if (cart == null)
+            {
+                cart = new Cart();
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
+            }
+
+            // Check if item already exists in cart
+            var cartItem = await _context.CartItems
+                .FirstOrDefaultAsync(ci => ci.CartId == cart.Id && ci.BarangId == id);
+
+            if (cartItem == null)
+            {
+                cartItem = new CartItem
+                {
+                    CartId = cart.Id,
+                    BarangId = id,
+                    Quantity = 1
+                };
+                _context.CartItems.Add(cartItem);
+            }
+            else if (cartItem.Quantity >= barang.Stock)
+            {
+                TempData["Error"] = "Cannot add more items than available in stock";
+                return RedirectToPage();
+            }
+            else
+            {
+                cartItem.Quantity++;
+            }
+
+            await _context.SaveChangesAsync();
+            TempData["Message"] = "Item added to cart successfully";
+            return RedirectToPage();
+        }
     }
 }

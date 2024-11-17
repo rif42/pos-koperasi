@@ -18,6 +18,19 @@
     </p>
 </form>
 
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
 <table class="table">
     <thead>
         <tr>
@@ -57,6 +70,9 @@
                 @Html.DisplayFor(modelItem => item.Deskripsi)
             </td>
             <td>
+                <form method="post" asp-page-handler="AddToCart" asp-route-id="@item.Id" style="display: inline;">
+                    <button type="submit" class="btn btn-link" style="padding: 0">Add to Cart</button>
+                </form> |
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
