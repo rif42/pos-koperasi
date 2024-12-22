@@ -283,3 +283,17 @@ C:\work\POS-koperasi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Ext
 C:\work\POS-koperasi\obj\Debug\net8.0\pos-koperasi.csproj.AssemblyReference.cache
 C:\work\POS-koperasi\obj\Debug\net8.0\pos-kope.A4BB414F.Up2Date
 C:\work\POS-koperasi\obj\Debug\net8.0\pos-koperasi.sourcelink.json
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.barcodes.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.forms.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.io.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.kernel.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.layout.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.pdfa.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.sign.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.svg.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.commons.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll

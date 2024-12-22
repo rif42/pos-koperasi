@@ -68,3 +68,21 @@ else
         </tfoot>
     </table>
 }
+
+@if (Model.CartItems.Any())
+{
+    <div class="mt-3">
+        @if (User?.Identity?.IsAuthenticated ?? false)
+        {
+            <form method="post" asp-page-handler="Purchase">
+                <button type="submit" class="btn btn-success">Purchase All Items</button>
+            </form>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                Please <a asp-page="/Login">login</a> to complete your purchase.
+            </div>
+        }
+    </div>
+}
