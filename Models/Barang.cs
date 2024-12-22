@@ -19,4 +19,5 @@ public class Barang
     public decimal Stock { get; set; }
     public string? Deskripsi { get; set; } = string.Empty;
     public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
+    public string? ImagePath { get; set; }
 }

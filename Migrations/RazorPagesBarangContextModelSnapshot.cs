@@ -29,6 +29,9 @@ namespace pos_koperasi.Migrations
                     b.Property<decimal>("Harga")
                         .HasColumnType("decimal(18, 3)");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("NamaBarang")
                         .HasColumnType("TEXT");
 

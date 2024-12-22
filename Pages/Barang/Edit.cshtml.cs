@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using pos_koperasi.Data;
 using pos_koperasi.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace pos_koperasi.Pages_Barang
 {
@@ -16,14 +18,19 @@ namespace pos_koperasi.Pages_Barang
     public class EditModel : PageModel
     {
         private readonly pos_koperasi.Data.RazorPagesBarangContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public EditModel(pos_koperasi.Data.RazorPagesBarangContext context)
+        public EditModel(pos_koperasi.Data.RazorPagesBarangContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
 
         [BindProperty]
         public Barang Barang { get; set; } = default!;
+
+        [BindProperty]
+        public IFormFile? ImageFile { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -50,7 +57,44 @@ namespace pos_koperasi.Pages_Barang
                 return Page();
             }
 
-            _context.Attach(Barang).State = EntityState.Modified;
+            var barang = await _context.Barang.FindAsync(Barang.Id);
+            if (barang == null)
+            {
+                return NotFound();
+            }
+
+            if (ImageFile != null && ImageFile.Length > 0)
+            {
+                // Delete old image if exists
+                if (!string.IsNullOrEmpty(barang.ImagePath))
+                {
+                    var oldFilePath = Path.Combine(_environment.WebRootPath, barang.ImagePath.TrimStart('/'));
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                // Save new image
+                var uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFile.FileName;
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await ImageFile.CopyToAsync(fileStream);
+                }
+
+                barang.ImagePath = "/uploads/" + uniqueFileName;
+            }
+
+            barang.NamaBarang = Barang.NamaBarang;
+            barang.TerakhirUpdate = Barang.TerakhirUpdate;
+            barang.Harga = Barang.Harga;
+            barang.Stock = Barang.Stock;
+            barang.Deskripsi = Barang.Deskripsi;
 
             try
             {
