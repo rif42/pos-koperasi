@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\work\\pos-koperasi\\wwwroot\\uploads\\b73b7e4b-61d6-40ff-b453-4cf34bea1114_topi-tennis-58-cm-tc-500-putih-artengo-8505882.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b73b7e4b-61d6-40ff-b453-4cf34bea1114_topi-tennis-58-cm-tc-500-putih-artengo-8505882.jpg"
+    },
+    {
+      "Id": "C:\\work\\pos-koperasi\\wwwroot\\uploads\\ec4027bf-2d1c-47b2-8f19-4b6877d9ada6_Halloween 2024.png",
+      "PackagePath": "staticwebassets\\uploads\\ec4027bf-2d1c-47b2-8f19-4b6877d9ada6_Halloween 2024.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.pos-koperasi.props",
       "PackagePath": "build\\pos-koperasi.props"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J5up+FHpJGIGaDAIp0IkFVZug+BCj71bmX3nvlITyWY=",
+  "Hash": "EA5I8cP8KucvZP8j9f5sVtP2sUHxo/fR1t0pkE9nmxo=",
   "Source": "pos-koperasi",
   "BasePath": "_content/pos-koperasi",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\uploads\\b73b7e4b-61d6-40ff-b453-4cf34bea1114_topi-tennis-58-cm-tc-500-putih-artengo-8505882.jpg",
+      "SourceId": "pos-koperasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\pos-koperasi\\wwwroot\\",
+      "BasePath": "_content/pos-koperasi",
+      "RelativePath": "uploads/b73b7e4b-61d6-40ff-b453-4cf34bea1114_topi-tennis-58-cm-tc-500-putih-artengo-8505882.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\b73b7e4b-61d6-40ff-b453-4cf34bea1114_topi-tennis-58-cm-tc-500-putih-artengo-8505882.jpg"
+    },
+    {
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\uploads\\ec4027bf-2d1c-47b2-8f19-4b6877d9ada6_Halloween 2024.png",
+      "SourceId": "pos-koperasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\pos-koperasi\\wwwroot\\",
+      "BasePath": "_content/pos-koperasi",
+      "RelativePath": "uploads/ec4027bf-2d1c-47b2-8f19-4b6877d9ada6_Halloween 2024.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ec4027bf-2d1c-47b2-8f19-4b6877d9ada6_Halloween 2024.png"
     }
   ]
 }

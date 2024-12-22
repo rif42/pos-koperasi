@@ -41,6 +41,28 @@ namespace pos_koperasi.Pages
 
                 return RedirectToPage("/Index");
             }
+            if (Username == "user" && Password == "user")
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, Username),
+                    new Claim(ClaimTypes.Role, "User")
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+                };
+
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    authProperties);
+
+                return RedirectToPage("/Index");
+            }
 
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             return Page();
