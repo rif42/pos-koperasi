@@ -64,7 +64,7 @@ namespace pos_koperasi.Pages_Barang
             _context.Barang.Add(Barang);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Barang/Index");
         }
     }
 }

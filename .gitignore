@@ -20,6 +20,12 @@ obj/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.vs/
+*.user
+*.suo
+
+appsettings.Development.json
+appsettings.Production.json
 
 # User-specific files
 *.rsuser
@@ -87,3 +93,8 @@ appsettings.Development.json
 .history/ 
 
 .wwwroot/uploads/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal

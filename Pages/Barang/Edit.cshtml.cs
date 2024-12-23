@@ -112,7 +112,7 @@ namespace pos_koperasi.Pages_Barang
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Barang/Index");
         }
 
         private bool BarangExists(int id)

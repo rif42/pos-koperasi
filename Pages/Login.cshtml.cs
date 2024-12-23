@@ -39,7 +39,7 @@ namespace pos_koperasi.Pages
                     new ClaimsPrincipal(claimsIdentity),
                     authProperties);
 
-                return RedirectToPage("/Index");
+                return RedirectToPage("/Barang/Index");
             }
             if (Username == "user" && Password == "user")
             {
@@ -61,7 +61,7 @@ namespace pos_koperasi.Pages
                     new ClaimsPrincipal(claimsIdentity),
                     authProperties);
 
-                return RedirectToPage("/Index");
+                return RedirectToPage("/Barang/Index");
             }
 
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
@@ -71,7 +71,7 @@ namespace pos_koperasi.Pages
         public async Task<IActionResult> OnPostLogoutAsync()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Barang/Index");
         }
     }
 }

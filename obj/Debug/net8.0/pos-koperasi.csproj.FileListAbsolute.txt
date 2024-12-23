@@ -296,3 +296,4 @@ C:\work\pos-koperasi\bin\Debug\net8.0\itext.commons.dll
 C:\work\pos-koperasi\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\work\pos-koperasi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\work\pos-koperasi\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+C:\work\pos-koperasi\bin\Debug\net8.0\System.Formats.Asn1.dll

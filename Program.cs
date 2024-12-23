@@ -7,7 +7,10 @@ using Microsoft.AspNetCore.Authorization;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AddPageRoute("/Barang/Index", "");
+});
 builder.Services.AddDbContext<RazorPagesBarangContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesBarangContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesBarangContext' not found.")));
 

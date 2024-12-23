@@ -8,9 +8,12 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+}
 
 <form method="get">
     <p>
@@ -39,11 +42,13 @@
             <div class="card">
                 @if (!string.IsNullOrEmpty(item.ImagePath))
                 {
-                    <img src="@item.ImagePath" class="card-img-top" alt="@item.NamaBarang" style="height: 200px; object-fit: cover;">
+                    <img src="@item.ImagePath" class="card-img-top" alt="@item.NamaBarang"
+                        style="height: 200px; object-fit: cover;">
                 }
                 else
                 {
-                    <div class="card-img-top bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 200px;">
+                    <div class="card-img-top bg-secondary text-white d-flex align-items-center justify-content-center"
+                        style="height: 200px;">
                         No Image
                     </div>
                 }
@@ -55,8 +60,11 @@
                         <form method="post" asp-page-handler="AddToCart" asp-route-id="@item.Id">
                             <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
-                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
-                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        }
                     </div>
                 </div>
             </div>
