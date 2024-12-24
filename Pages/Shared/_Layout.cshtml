@@ -13,36 +13,47 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav style="background-color: #2B3A2B;"
+            class="navbar justify-content-between navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 ">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Barang/Index">pos_koperasi</a>
+                <a class="navbar-brand text-white px-4" asp-area="" asp-page="/Barang/Index"><b>
+                        Point of Sale Koperasi
+                    </b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Barang/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Cart/Index">Cart</a>
-                        </li>
-                        <li class="nav-item">
+
+            </div>
+            <div class="container ">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+                    <ul class="navbar-nav flex-grow-1 flex-row-reverse">
+                        <li class="nav-item bg-white rounded-pill rounded-sm px-3 mx-2">
                             @if (User?.Identity?.IsAuthenticated ?? false)
                             {
                                 <form method="post" asp-page="/Login" asp-page-handler="Logout" class="form-inline">
-                                    <button type="submit" class="btn btn-link nav-link text-dark">Logout</button>
+                                    <button type="submit" class="btn btn-link nav-link text-green-army"><b>
+                                            Logout
+                                        </b></button>
                                 </form>
                             }
                             else
                             {
-                                <a class="nav-link text-dark" asp-page="/Login">Login</a>
+                                <a class="nav-link font-weight-bold text-green-army" asp-page="/Login"><b>Login</b></a>
                             }
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Cart/Index">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Barang/Index">Home</a>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
+
         </nav>
     </header>
     <div class="container">

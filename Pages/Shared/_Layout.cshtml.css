@@ -5,6 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: white;
 }
 
 a {
@@ -37,4 +38,8 @@ a {
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
+}
+
+.text-green-army{
+  color: #2B3A2B !important;
 }

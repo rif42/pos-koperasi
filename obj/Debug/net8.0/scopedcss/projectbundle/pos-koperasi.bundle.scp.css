@@ -6,6 +6,7 @@ a.navbar-brand[b-khb5xgj81w] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: white;
 }
 
 a[b-khb5xgj81w] {
@@ -38,4 +39,8 @@ a[b-khb5xgj81w] {
 button.accept-policy[b-khb5xgj81w] {
   font-size: 1rem;
   line-height: inherit;
+}
+
+.text-green-army[b-khb5xgj81w]{
+  color: #2B3A2B !important;
 }
