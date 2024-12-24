@@ -6,16 +6,18 @@
     ViewData["Title"] = "Index";
 }
 
-@if (User.IsInRole("Admin"))
-{
-    <p>
-        <a asp-page="Create">Create New</a>
-    </p>
-}
-
-<div class="container d-flex justify-content-between">
+<div class="container d-flex justify-content-between py-4 px-0">
     <div class="d-flex justify-content-center">
-        <h3>kategori</h3>
+        @if (User.IsInRole("Admin"))
+        {
+            <p>
+                <a asp-page="Create">
+                    <div style="background-color: #2B3A2B; padding: 10px 20px; border-radius: 5px; height: 50px; ">
+                        <p class="text-white">Tambah Barang</p>
+                    </div>
+                </a>
+            </p>
+        }
     </div>
     <form class method="get">
         <p>
