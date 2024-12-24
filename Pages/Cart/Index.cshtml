@@ -27,20 +27,20 @@
     }
 </style>
 
-<h1 class="mb-5">Shopping Cart</h1>
+<h2 class="mb-5">Keranjang Belanja</h2>
 
 @if (!Model.CartItems.Any())
 {
-    <p>Your cart is empty.</p>
+    <p>Keranjang anda kosong</p>
 }
 else
 {
     <table class="table">
         <thead>
             <tr style="font-size: 1.2rem;">
-                <th>Product Details</th>
-                <th>Quantity</th>
-                <th>Price</th>
+                <th>Detil Produk</th>
+                <th>Jumlah</th>
+                <th>Harga</th>
                 <th>Subtotal</th>
             </tr>
         </thead>
@@ -56,7 +56,7 @@ else
                                 <p>@item.Barang.NamaBarang</p>
                                 <form method="post">
                                     <input type="hidden" name="id" value="@item.Id" />
-                                    <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                    <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
                                 </form>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ else
         else
         {
             <div class="alert alert-warning">
-                Please <a asp-page="/Login">login</a> to complete your purchase.
+                Mohon <a asp-page="/Login">login</a> terlebih dahulu untuk melakukan pembelian.
             </div>
         }
     </div>

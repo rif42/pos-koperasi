@@ -92,7 +92,7 @@ namespace pos_koperasi.Pages_Barang
             }
 
             await _context.SaveChangesAsync();
-            TempData["Message"] = "Item added to cart successfully";
+            TempData["Message"] = "Barang berhasil ditambahkan ke keranjang";
             return RedirectToPage();
         }
 
