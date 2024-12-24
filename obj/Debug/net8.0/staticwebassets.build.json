@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EA5I8cP8KucvZP8j9f5sVtP2sUHxo/fR1t0pkE9nmxo=",
+  "Hash": "z3h52bFQX65PTUe1lw7D68AfOiGbdyA3xIpbpiOOEn4=",
   "Source": "pos-koperasi",
   "BasePath": "_content/pos-koperasi",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\work\\pos-koperasi\\wwwroot\\images\\logo.jpeg",
+      "SourceId": "pos-koperasi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\pos-koperasi\\wwwroot\\",
+      "BasePath": "_content/pos-koperasi",
+      "RelativePath": "images/logo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpeg"
     },
     {
       "Identity": "C:\\work\\pos-koperasi\\wwwroot\\js\\site.js",
