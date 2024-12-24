@@ -17,6 +17,7 @@ namespace pos_koperasi.Data
         public DbSet<pos_koperasi.Models.Barang> Barang { get; set; } = default!;
         public DbSet<Cart> Carts { get; set; } = default!;
         public DbSet<CartItem> CartItems { get; set; } = default!;
+        public DbSet<User> Users { get; set; } = default!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +27,10 @@ namespace pos_koperasi.Data
 
             modelBuilder.Entity<Cart>()
                 .HasIndex(c => c.Id);
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
         }
     }
 }
