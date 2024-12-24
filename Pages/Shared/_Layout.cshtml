@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav style="background-color: #2B3A2B;"
-            class="navbar justify-content-between navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 ">
+            class="navbar justify-content-between navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow py-3 mb-3 ">
             <div class="container">
                 <a class="navbar-brand text-white px-4" asp-area="" asp-page="/Barang/Index"><b>
                         Point of Sale Koperasi
@@ -28,7 +28,7 @@
             <div class="container ">
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
                     <ul class="navbar-nav flex-grow-1 flex-row-reverse">
-                        <li class="nav-item bg-white rounded-pill rounded-sm px-3 mx-2">
+                        <li class="nav-item bg-white rounded-pill rounded-sm px-3 mx-4">
                             @if (User?.Identity?.IsAuthenticated ?? false)
                             {
                                 <form method="post" asp-page="/Login" asp-page-handler="Logout" class="form-inline">
@@ -43,10 +43,13 @@
                             }
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Cart/Index">Cart</a>
+                            <a class="nav-link text-white position-relative" asp-page="/Cart/Index">
+                                Cart
+                                @await Component.InvokeAsync("CartCount")
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Barang/Index">Home</a>
+                            <a class="nav-link text-white" asp-page="/Barang/Index">Barang</a>
                         </li>
 
                     </ul>
