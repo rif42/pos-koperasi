@@ -16,6 +16,12 @@ a.navbar-brand[b-khb5xgj81w] {
   border-color: #1861ac;
 }
 
+.btn-army-primary[b-khb5xgj81w] {
+  color: #fff;
+  background-color: #2B3A2B;
+  border-color: #2B3A2B;
+}
+
 .nav-pills .nav-link.active[b-khb5xgj81w], .nav-pills .show > .nav-link[b-khb5xgj81w] {
   color: #fff;
   background-color: #1b6ec2;

@@ -6,17 +6,55 @@
     ViewData["Title"] = "Index";
 }
 
+<style>
+    .btn-army-primary {
+        color: #fff;
+        background-color: #2B3A2B;
+        border-color: #2B3A2B;
+    }
+
+    .btn-army-primary:hover {
+        color: #fff;
+        background-color: #1e291e;
+        border-color: #1a251a;
+    }
+
+    .btn-army-primary:focus {
+        color: #fff;
+        background-color: #1e291e;
+        border-color: #1a251a;
+        box-shadow: 0 0 0 0.25rem rgba(43, 58, 43, 0.5);
+    }
+
+    .btn-army-secondary {
+        color: #2B3A2B;
+        background-color: white;
+        border: 2px solid #2B3A2B;
+    }
+
+    .btn-army-secondary:hover {
+        background-color: rgb(203, 203, 203);
+    }
+
+    .btn-army-secondary:focus {
+        background-color: rgb(203, 203, 203);
+        box-shadow: 0 0 0 0.25rem rgba(43, 58, 43, 0.5);
+    }
+
+    .text-green-army {
+        color: #2B3A2B !important;
+    }
+</style>
+
 <div class="container d-flex justify-content-between py-4 px-0">
     <div class="d-flex justify-content-center">
         @if (User.IsInRole("Admin"))
         {
-            <p>
-                <a asp-page="Create">
-                    <div style="background-color: #2B3A2B; padding: 10px 20px; border-radius: 5px; height: 50px; ">
-                        <p class="text-white">Tambah Barang</p>
-                    </div>
-                </a>
-            </p>
+            <a class="text-decoration-none text-white" asp-page="Create">
+                <div style="background-color: #2B3A2B; padding: 10px 20px; border-radius: 5px; ">
+                    Tambah Barang
+                </div>
+            </a>
         }
     </div>
     <form class method="get">
@@ -58,17 +96,25 @@
                     </div>
                 }
                 <div class="card-body">
-                    <h5 class="card-title">@item.NamaBarang</h5>
-                    <p>Price: @item.Harga.ToString("C", new CultureInfo("id-ID"))</p>
-                    <p>Stock: @item.Stock</p>
-                    <div class="btn-group">
+                    <h4 class="card-title">@item.NamaBarang</h4>
+                    <p>@item.Harga.ToString("C", new CultureInfo("id-ID"))</p>
+                    <p class="text-muted small">Stock: @item.Stock</p>
+                    <div class="btn-group d-flex justify-content-between gap-2">
                         <form method="post" asp-page-handler="AddToCart" asp-route-id="@item.Id">
-                            <button type="submit" class="btn btn-primary">Add to Cart</button>
+                            <button type="submit" class="btn btn-army-primary rounded">Add to Cart</button>
                         </form>
                         @if (User.IsInRole("Admin"))
                         {
-                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
-                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-secondary rounded">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger rounded">Delete</a>
+                        }
+                        @if (User.IsInRole("User"))
+                        {
+                            <form method="post" asp-page-handler="BuyNow" asp-route-id="@item.Id">
+                                <button class="btn btn-army-secondary rounded" type="submit">
+                                    Buy Now
+                                </button>
+                            </form>
                         }
                     </div>
                 </div>

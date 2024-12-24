@@ -179,5 +179,19 @@ namespace pos_koperasi.Pages.Cart
 
             return File(bytes, "application/pdf", filename);
         }
+
+        public async Task<IActionResult> OnPostAsync(int id)
+        {
+            var cartItem = await _context.CartItems.FindAsync(id);
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.CartItems.Remove(cartItem);
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage();
+        }
     }
 }
