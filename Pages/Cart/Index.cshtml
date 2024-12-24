@@ -6,7 +6,28 @@
     ViewData["Title"] = "Shopping Cart";
 }
 
-<h1>Shopping Cart</h1>
+<style>
+    .btn-army-primary {
+        color: #fff;
+        background-color: #2B3A2B;
+        border-color: #2B3A2B;
+    }
+
+    .btn-army-primary:hover {
+        color: #fff;
+        background-color: #1e291e;
+        border-color: #1a251a;
+    }
+
+    .btn-army-primary:focus {
+        color: #fff;
+        background-color: #1e291e;
+        border-color: #1a251a;
+        box-shadow: 0 0 0 0.25rem rgba(43, 58, 43, 0.5);
+    }
+</style>
+
+<h1 class="mb-5">Shopping Cart</h1>
 
 @if (!Model.CartItems.Any())
 {
@@ -16,45 +37,54 @@ else
 {
     <table class="table">
         <thead>
-            <tr>
-                <th>Product</th>
-                <th>Price</th>
+            <tr style="font-size: 1.2rem;">
+                <th>Product Details</th>
                 <th>Quantity</th>
+                <th>Price</th>
                 <th>Subtotal</th>
-                <th></th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model.CartItems)
             {
                 <tr>
-                    <td>@item.Barang.NamaBarang</td>
-                    <td>@item.Barang.Harga.ToString("C")</td>
-                    <td>
-                        <div class="d-flex align-items-center">
+                    <td class="align-middle">
+                        <div class="d-flex flex-row gap-4">
+                            <img src="@item.Barang.ImagePath" alt="@item.Barang.NamaBarang" class="img-fluid"
+                                style="width: 100px; height: 100px;">
+                            <div class="d-flex flex-column justify-content-center">
+                                <p>@item.Barang.NamaBarang</p>
+                                <form method="post">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="align-middle">
+                        <div class="d-flex align-items-center align-middle">
                             @if (item.Quantity > 1)
                             {
                                 <form method="post" asp-page-handler="DecreaseQuantity" class="me-2">
                                     <input type="hidden" name="id" value="@item.Id" />
-                                    <button type="submit" class="btn btn-outline-secondary btn-sm">-</button>
+                                    <button type="submit" class="btn btn-md px-1 py-0 mb-2"><b>–</b></button>
                                 </form>
                             }
-                            <span>@item.Quantity</span>
+                            <b><h5>@item.Quantity</h5></b>
                             @if (item.Quantity < item.Barang.Stock)
                             {
                                 <form method="post" asp-page-handler="IncreaseQuantity" class="ms-2">
                                     <input type="hidden" name="id" value="@item.Id" />
-                                    <button type="submit" class="btn btn-outline-secondary btn-sm">+</button>
+                                    <button type="submit" class="btn btn-md px-0 py-0 mb-2"><b>+</b></button>
                                 </form>
                             }
                         </div>
                     </td>
-                    <td>@((item.Barang.Harga * item.Quantity).ToString("C", new CultureInfo("id-ID")))</td>
-                    <td>
-                        <form method="post">
-                            <input type="hidden" name="id" value="@item.Id" />
-                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-                        </form>
+                    <td class="align-middle">
+                        <h5>@item.Barang.Harga.ToString("C", new CultureInfo("id-ID"))</h5>
+                    </td>
+                    <td class="align-middle">
+                        <h5>@((item.Barang.Harga * item.Quantity).ToString("C", new CultureInfo("id-ID")))</h5>
                     </td>
                 </tr>
             }
@@ -75,7 +105,7 @@ else
         @if (User?.Identity?.IsAuthenticated ?? false)
         {
             <form method="post" asp-page-handler="Purchase">
-                <button type="submit" class="btn btn-success">Purchase All Items</button>
+                <button style="font-size: 1.2rem;" type="submit" class="btn btn-army-primary w-100">Checkout</button>
             </form>
         }
         else

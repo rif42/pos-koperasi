@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pos-koperasi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f97a30d5aeba58957d4a44db54d514d0a90bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c18e02356230faf0a320ee015893456554ae2737")]
 [assembly: System.Reflection.AssemblyProductAttribute("pos-koperasi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pos-koperasi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
