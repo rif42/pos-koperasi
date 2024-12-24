@@ -86,3 +86,12 @@ else
         }
     </div>
 }
+
+@section Scripts {
+    @if (TempData["PdfToDownload"] != null)
+    {
+        <script>
+            window.location.href = '?handler=DownloadPdf&filename=@TempData["PdfToDownload"]';
+        </script>
+    }
+}

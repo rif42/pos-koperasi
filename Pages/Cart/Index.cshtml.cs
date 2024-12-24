@@ -8,7 +8,7 @@ using iText.Layout;
 using iText.Layout.Element;
 using iText.Layout.Properties;
 using System.Globalization;
-
+using System.IO;
 
 namespace pos_koperasi.Pages.Cart
 {
@@ -151,9 +151,33 @@ namespace pos_koperasi.Pages.Cart
             _context.CartItems.RemoveRange(cartItems);
             await _context.SaveChangesAsync();
 
-            // Return PDF file
-            var bytes = memoryStream.ToArray();
-            return File(bytes, "application/pdf", $"{invoiceNumber}.pdf");
+            // Save PDF to temporary folder
+            var tempFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "temp");
+            Directory.CreateDirectory(tempFolder);
+            var pdfPath = Path.Combine(tempFolder, $"{invoiceNumber}.pdf");
+            System.IO.File.WriteAllBytes(pdfPath, memoryStream.ToArray());
+
+            // Store the PDF filename in TempData for download
+            TempData["PdfToDownload"] = $"{invoiceNumber}.pdf";
+
+            return RedirectToPage();
+        }
+
+        public IActionResult OnGetDownloadPdf(string filename)
+        {
+            if (string.IsNullOrEmpty(filename))
+                return RedirectToPage();
+
+            var tempFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "temp");
+            var pdfPath = Path.Combine(tempFolder, filename);
+
+            if (!System.IO.File.Exists(pdfPath))
+                return RedirectToPage();
+
+            var bytes = System.IO.File.ReadAllBytes(pdfPath);
+            System.IO.File.Delete(pdfPath); // Clean up after download
+
+            return File(bytes, "application/pdf", filename);
         }
     }
-} 
+}
