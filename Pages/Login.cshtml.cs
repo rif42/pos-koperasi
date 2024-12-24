@@ -34,6 +34,55 @@ namespace pos_koperasi.Pages
                 return Page();
             }
 
+            // Auto-login for admin credentials
+            if (Username == "admin" && Password == "admin")
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, "admin"),
+                    new Claim(ClaimTypes.Role, "Admin")
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+                };
+
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    authProperties);
+
+                return RedirectToPage("/Barang/Index");
+            }
+
+            // Auto-login for admin credentials
+            if (Username == "user" && Password == "user")
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, "user"),
+                    new Claim(ClaimTypes.Role, "User")
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+                };
+
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    authProperties);
+
+                return RedirectToPage("/Barang/Index");
+            }
+
+            // Regular user login check
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == Username && u.Password == Password);
 
             if (user != null)
@@ -41,7 +90,7 @@ namespace pos_koperasi.Pages
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, Username),
-                    new Claim(ClaimTypes.Role, Username == "admin" ? "Admin" : "User")
+                    new Claim(ClaimTypes.Role, "User")
                 };
 
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

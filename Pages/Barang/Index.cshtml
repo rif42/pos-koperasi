@@ -6,8 +6,6 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 @if (User.IsInRole("Admin"))
 {
     <p>
@@ -15,12 +13,17 @@
     </p>
 }
 
-<form method="get">
-    <p>
-        <label>Nama Barang: <input type="text" asp-for="SearchString" /></label>
-        <input type="submit" value="Filter" />
-    </p>
-</form>
+<div class="container d-flex justify-content-between">
+    <div class="d-flex justify-content-center">
+        <h3>kategori</h3>
+    </div>
+    <form class method="get">
+        <p>
+            <label><input type="text" asp-for="SearchString" /></label>
+            <input type="submit" value="Cari" />
+        </p>
+    </form>
+</div>
 
 @if (TempData["Message"] != null)
 {
